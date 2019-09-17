@@ -31,7 +31,7 @@ Da Installationsprocessen for Windows og Mac er forskellig, skal du her kun føl
 ... så er du færdig!
 
 ##### Windows
-1. Hent denne installer http://dk.mirrors.quenda.co/apache/tomcat/tomcat-9/v9.0.12/bin/apache-tomcat-9.0.12.exe
+1. Hent denne installer http://dk.mirrors.quenda.co/apache/tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24.exe
 2. Åbn .exe filen og følg installationsguiden
 3. Åben "Configure Tomcat" (kan findes ved at søge, eller ved at åbne "tomcat8w.exe" i jeres installations mappe), og hvis der står "Service Status: Started" så skal i trykke på Stop.
 4. Hvis du får en Windows Defender pop-up besked som har stoppet din server, så tryk "flere oplysninger" og "kør alligevel"
@@ -60,7 +60,7 @@ Vi skal nu prøve at starte serveren, og det først du måske ligger mærke til 
 8. Tryk på "+" nederste til venstre
 9. Vælg "Artifact"
 10. Vælg "restfull-dis:war exploded" og klik OK
-12. Sørg for at Application server er valgt til "Tomcat 9.0.xx". Hvis du er på Mac og får fejlen "Application Server not specified", så klik "Configure", klik "+" i venstre hjørne, og sæt `/usr/local/Cellar/tomcat/9.0.12/libexec` ind som Tomcat Home og tryk OK til alle vinduer er lukket.
+12. Sørg for at Application server er valgt til "Tomcat 9.0.xx". Hvis du er på Mac og får fejlen "Application Server not specified", så klik "Configure", klik "+" i venstre hjørne, og sæt `/usr/local/Cellar/tomcat/9.0.24/libexec` ind som Tomcat Home og tryk OK til alle vinduer er lukket.
 11. Klik OK så du gemmer og lukker konfigurationsvinduet
 
 Du bør nu se at "Play-knappen" er blevet grøn, og der ved siden af den står "Run server". Tryk på "Play-knappen" og lad Tomcat starte serveren op. Denne process kan godt tage lidt tid, og i din konsol bliver der printet en masse rød tekst - dette er ikke nødvendigvis pga. af fejl!
